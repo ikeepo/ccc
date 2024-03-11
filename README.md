@@ -11,7 +11,7 @@ import requests
 import json
 payload = {"base": "BTC"}
 url = "https://young-chamber-41337-67dbb5d1ef56.herokuapp.com/category"
-cate = requests.post(url=rul, data=json.dumps(payload))
+cate = requests.post(url=url, data=json.dumps(payload))
 print(cate.json())   #{"base": "BTC","category": "POW"}
 ```
 details can be found in [here](https://young-chamber-41337-67dbb5d1ef56.herokuapp.com/docs).
